@@ -55,7 +55,6 @@ dev_dependencies:
 flutter_launcher_icons:
   android: "ic_launcher"
   ios: true
-  image_path: "assets/images/sticky-note.png"
   min_sdk_android: 21
 
 # For information on the generic Dart part of this file, see the
@@ -64,7 +63,9 @@ flutter_launcher_icons:
 # The following section is specific to Flutter packages.
 flutter:
   assets:
-    - assets/images/
+# Suggested code may be subject to a license. Learn more: ~LicenseLog:3891084962.
+    - assets/images/sticky-note.png
+    - assets/images/Me0.jpg
   fonts:
     - family: Quicksand
       fonts:

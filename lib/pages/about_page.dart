@@ -16,7 +16,36 @@ class AboutPage extends StatelessWidget {
         ),
       ),
       body: const Center(
-        child: Text("itg.ac.id © 2024"),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          CircleAvatar(
+            radius: 100,
+            backgroundImage: AssetImage('assets/images/Me0.jpg'),
+          ),
+          SizedBox(height: 20,),
+          Text(
+            "Ahmad S. Zaky",
+            style: TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(height: 2,),
+          Text(
+            "2106123",
+            style: TextStyle(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(height: 30),
+            Text(
+              'NotesApp v1.2.0',
+              textAlign: TextAlign.center,
+            ),
+        ],
+      )
       ),
     );
   }
